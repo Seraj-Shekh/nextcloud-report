@@ -11,16 +11,3 @@
 [context.production.environment]
 # Set production environment variables here if needed
 # REACT_APP_API_URL = "https://api.example.com"
-[build]
-  base = "frontend"
-  command = "yarn build"
-  publish = "frontend/build"
-
-[dev]
-  command = "yarn start"
-  port = 3000
-  targetPort = 3000
-
-[context.production.environment]
-# You can set environment variables here if needed, e.g.
-# REACT_APP_API_URL = "https://api.example.com"
