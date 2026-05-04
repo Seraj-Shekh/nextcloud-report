@@ -85,7 +85,7 @@ export default function DocsPage() {
           <div className="max-w-3xl fade-up">
             <div className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-[0.18em] text-primary bg-primary/10 border border-primary/20 rounded-full px-3 py-1.5 mb-6">
               <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-              Engineering notes · v1.0
+              Seraj Shekh Findings
             </div>
             <h1 className="font-display text-[clamp(2.3rem,5vw,4rem)] font-semibold tracking-[-0.025em] leading-[1.05] mb-6">
               Nextcloud Collectives{" "}
@@ -488,7 +488,7 @@ mc mirror source/nextcloud-bucket target/nextcloud-bucket`}
 
           <footer className="mt-20 pt-8 border-t border-border text-sm text-muted-foreground flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
             <span>
-              © Nextcloud Collectives Migration Report · Engineering field notes
+              © Nextcloud Collectives Migration Report — <a href="https://serajshekh.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors underline">Seraj Shekh</a>
             </span>
             <a
               href="#top"
